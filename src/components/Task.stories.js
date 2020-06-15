@@ -9,15 +9,11 @@ export default {
   title: "Task",
   decorators: [withKnobs],
   parameters: {
-    assets: [
-      '/logo192.png',
-      '/courses/card-01.jpg'
-    ],
+    assets: ["/logo192.png", "/courses/card-01.jpg"],
   },
   // Our exports that end in "Data" are not stories.
   excludeStories: /.*Data$/,
 };
-
 
 export const taskData = {
   id: "1",
